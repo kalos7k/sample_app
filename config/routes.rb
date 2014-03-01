@@ -1,6 +1,5 @@
 SampleApp::Application.routes.draw do
-  get "users/new"
-
+  resources :users
 	root 'static_pages#home'
 
 	#   link name  to:  controller#function  via: HTTP method
